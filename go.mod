@@ -1,8 +1,12 @@
 module openai-proxy
 
-go 1.20
+go 1.19
 
-require github.com/gin-gonic/gin v1.9.0
+require (
+	github.com/gin-gonic/gin v1.9.0
+	github.com/gofiber/adaptor/v2 v2.1.32
+	github.com/gofiber/fiber/v2 v2.42.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
@@ -13,8 +17,6 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.11.2 // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
-	github.com/gofiber/adaptor/v2 v2.1.32 // indirect
-	github.com/gofiber/fiber/v2 v2.42.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.16.0 // indirect
