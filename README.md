@@ -17,7 +17,7 @@ docker run -d \
 
 ### Vercel
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyqchilde%2Fopenai-proxy)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yqchilde/openai-proxy&env=PROXY_DOMAIN&project-name=openai_proxy&repo-name=openai_proxy)
 
 **设置环境变量 `PROXY_DOMAIN` 为 `api.openai.com`**
 
