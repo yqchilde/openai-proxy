@@ -1,4 +1,4 @@
-package vercel
+package handler
 
 import (
 	"fmt"
