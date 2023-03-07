@@ -1,6 +1,6 @@
 ## OpenAI-Proxy
 
-Golang proxy for OpenAI API
+一个十分简单的代理，用于解决 OpenAI 的网络问题。
 
 ### Docker Run
 
